@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  $('.grid').packery({
+    // options
+    itemSelector: '.grid-item',
+    gutter: 10
+  });
+  <div class="grid">
+    <div class="grid-item">...</div>
+    <div class="grid-item grid-item--width2">...</div>
+    <div class="grid-item">...</div>
+    ...
+  </div>
+</body>
+<script src="https://unpkg.com/packery@2/dist/packery.pkgd.js"></script>
+<!-- or -->
+<script src="https://unpkg.com/packery@2/dist/packery.pkgd.min.js"></script>
+</html>
